@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Axios from './Axios/Axios';
+import PieChart from './PieChart/PieChart';
 
 import { 
   BrowserRouter as Router,
@@ -25,15 +27,23 @@ function App() {
           <Route path="/about">
           <AboutPage/>
           </Route>
+          <Route path="/axios"> {/* New route for Axios example */}
+            <Axios/>
+          </Route>
           <Route path="/login">
           <LoginPage/>
           </Route>
+          <Route path="/">
+          <HomePage/>
+          </Route>
         </Switch>
       </div>
-      <HomePage/>
+
       <Footer/>
     </Router>
   );
 }
+
+
 
 export default App;

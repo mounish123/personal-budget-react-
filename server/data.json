@@ -1,0 +1,42 @@
+{
+    "myBudget": [
+      {
+        "title": "Eat out",
+        "budget": 25
+      },
+      {
+        "title": "Rent",
+        "budget": 375
+      },
+      {
+        "title": "Grocery",
+        "budget": 110
+      },
+      {
+        "title": "Insurance",
+        "budget" : 150
+      },
+      {
+        "title" : "Loan",
+        "budget" : 200
+      },
+      {
+        "title": "Savings",
+        "budget": 500
+      },
+      {
+        "title":"Charity",
+        "budget" : 110
+      }
+    ],
+
+    "barChartData":[
+        {"name": "Sub1", "value": 30},
+        {"name": "Sub2", "value": 80},
+        {"name": "Sub3", "value": 45},
+        {"name": "Sub4", "value": 60},
+        {"name": "Sub5", "value": 20},
+        {"name": "Sub6", "value": 90},
+        {"name": "Sub7", "value": 55}
+    ]
+}

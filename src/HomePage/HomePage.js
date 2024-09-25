@@ -1,4 +1,6 @@
 import React from 'react';
+import PieChart from '../PieChart/PieChart';
+import BarChart from '../BarChart/BarChart';
 // import './App.css';
 
 function HomePage() {
@@ -65,13 +67,12 @@ function HomePage() {
             </div>
             <div className="text-box">
                 <h2>Chart</h2>
-                <p>
-                    <canvas id="myChart" width = "400" height = "400"></canvas>
-                </p>
+                  <PieChart />
             </div>
             <div className="text-box"></div>
                 <h2>Bar Chart</h2>
                 <div id="bar-chart"></div>
+                <BarChart />
             </div>
         </div>
   );

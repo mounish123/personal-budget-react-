@@ -461,3 +461,13 @@ div.hero h2 {
       margin: 10px;
   }
 }
+
+.chart-container {
+  width: 300px; /* Set desired width */
+  height: 300px; /* Set desired height */
+}
+
+.chart-container canvas {
+  width: 100% !important; /* Ensure canvas fills the container */
+  height: 100% !important; /* Ensure canvas fills the container */
+}
